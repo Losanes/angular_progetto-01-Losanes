@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./componente02.component.css']
 })
 export class Componente02Component implements OnInit {
-
+  marca:string="lamb"
+  modello:string="stica"
   constructor() { }
 
   ngOnInit(): void {

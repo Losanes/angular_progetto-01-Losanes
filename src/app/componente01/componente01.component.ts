@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Componente01Component implements OnInit {
 marca:string="lamb"
 modello:string="avent"
+textColor:string="blue"
   constructor() { }
 
   ngOnInit(): void {

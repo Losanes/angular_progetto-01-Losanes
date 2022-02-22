@@ -9,6 +9,7 @@ export class Componente01Component implements OnInit {
 marca:string="lamb"
 modello:string="avent"
 textColor:string="blue"
+comment:string="inserisci un commento"
 
   onClick() {
     this.textColor = "red"

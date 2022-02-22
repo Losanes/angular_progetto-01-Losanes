@@ -9,6 +9,11 @@ export class Componente01Component implements OnInit {
 marca:string="lamb"
 modello:string="avent"
 textColor:string="blue"
+
+  onClick() {
+    this.textColor = "red"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
